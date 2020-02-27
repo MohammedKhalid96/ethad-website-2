@@ -74,7 +74,6 @@
                 alt
                 class="about-vector"
               />
-              <img src="../static/images/signature.png" alt class="signature" />
             </div>
           </div>
 
@@ -100,6 +99,8 @@
             </div>
           </div>
         </div>
+
+        <img src="../static/images/signature.png" alt class="signature" />
       </div>
     </section>
 
@@ -194,7 +195,8 @@
     </section>
 
     <section class="projects-section">
-      <div class="mid-padding">
+      <div class="top-bottom-padding">
+        <!-- <div class="title-circle"></div> -->
         <div class="row">
           <div class="col-md-3">
             <div class="project-box small-project-box" v-for="i in 2" :key="i">
@@ -268,8 +270,137 @@
       </div>
     </section>
 
+    <section class="test-section">
+      <div class="top-bottom-padding">
+        <div class="test-section-bg">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+              <div class="test-section-slider">
+                <carousel
+                  :perPageCustom="[
+                    [320, 1],
+                    [768, 1],
+                    [1024, 1]
+                  ]"
+                  :navigationEnabled="false"
+                  :paginationEnabled="false"
+                  :scrollPerPage="false"
+                  :loop="true"
+                  :autoplay="true"
+                  :speed="2000"
+                  :autoplayTimeout="4000"
+                  dir="rtl"
+                >
+                  <slide v-for="i in 10" :key="i">
+                    <img
+                      src="../static/images/bg-new-4.jpg"
+                      alt=""
+                      class="image-100"
+                    />
+                  </slide>
+                </carousel>
+              </div>
+
+              <div class="test-section-bottom-wrap">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <div class="test-section-action text-center">
+                      <div class="test-section-action-link">
+                        <nuxt-link to="/" class="no-line link-1">
+                          <span class="link-arrow">
+                            <font-awesome-icon icon="plus"></font-awesome-icon>
+                          </span>
+                          المزيد
+                        </nuxt-link>
+                      </div>
+
+                      <div class="test-section-action-link">
+                        <nuxt-link to="/" class="no-line link-2">
+                          <span class="link-arrow">
+                            <font-awesome-icon
+                              icon="mobile-alt"
+                            ></font-awesome-icon>
+                          </span>
+                          اتصل بنا
+                        </nuxt-link>
+                      </div>
+
+                      <div class="test-section-action-link">
+                        <nuxt-link to="/" class="no-line link-3 other-lang">
+                          <span class="link-arrow">
+                            <font-awesome-icon
+                              icon="envelope"
+                            ></font-awesome-icon>
+                          </span>
+                          info@ethad.com
+                        </nuxt-link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-8">
+                    <div class="test-section-caption mid-padding">
+                      <h3 class="test-section-h3 orange">
+                        معايير عالمي في مجال المقاولات الصناعية
+                      </h3>
+                      <p class="test-section-p">
+                        مشاريع سكنية وإدارية وتجارية ورياضية وترفيهية يقدمها لك
+                        الاتحاد بتصاميم إبداعية ومبتكرة غير مسبوقة تجربة مختلفة
+                        واستثنائية في الاتحاد للاستثمار والتطوير العقاري مع أحدث
+                        الأساليب المتبعة في التخطيط والتصميم والتنفيذ والإدارة
+                        لتحصل على ما تريد بأفضل جودة ممكنة
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="test-section-side relative">
+                <div class="test-section-caption mid-padding">
+                  <h3 class="test-section-h3 orange">
+                    معايير عالمي في مجال المقاولات الصناعية
+                  </h3>
+                  <p class="test-section-p">
+                    مشاريع سكنية وإدارية وتجارية ورياضية وترفيهية يقدمها لك
+                    الاتحاد بتصاميم إبداعية ومبتكرة غير مسبوقة تجربة مختلفة
+                    واستثنائية في الاتحاد للاستثمار والتطوير العقاري مع أحدث
+                    الأساليب المتبعة في التخطيط والتصميم والتنفيذ والإدارة لتحصل
+                    على ما تريد بأفضل جودة ممكنة
+                  </p>
+                </div>
+
+                <div class="test-section-bottom-side">
+                  <div class="test-section-bottom-side-img">
+                    <img
+                      src="../static/images/h1-blog.jpg"
+                      alt=""
+                      class="image-100"
+                    />
+                  </div>
+                  <div class="test-section-action text-center">
+                    <div class="test-section-action-link">
+                      <nuxt-link to="/" class="no-line">
+                        <span class="link-arrow">
+                          <font-awesome-icon
+                            icon="plus"
+                          ></font-awesome-icon>
+                        </span>
+                        المزيد
+                      </nuxt-link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="blog-section">
-      <div class="mid-padding">
+      <div class="top-bottom-padding">
         <div class="row">
           <div class="col-md-3" v-for="i in 4" :key="i">
             <article class="blog-box">

@@ -342,7 +342,7 @@ body {
 }
 
 .signature {
-  width: 55%;
+  width: 15%;
   margin-top: 2em;
 }
 
@@ -390,11 +390,14 @@ body {
 }
 
 .services-section .VueCarousel-navigation-button[data-v-453ad8cd] {
-  background-color: #c7712c;
-  color: #fff !important;
+  background: #fff;
+  color: #c7712c !important;
+  border: 1px solid #c7712c;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  line-height: 10px;
 }
 
 .services-section .VueCarousel-navigation-button[data-v-453ad8cd]:focus {
@@ -405,19 +408,19 @@ body {
   -webkit-transform: translateY(0) translateX(-50%) !important;
   -ms-transform: translateY(0) translateX(-50%) !important;
   transform: translateY(0) translateX(-50%) !important;
-  left: 48% !important;
+  left: 49% !important;
 }
 
 .VueCarousel-navigation-next[data-v-453ad8cd] {
   -webkit-transform: translateY(0) translateX(-50%) !important;
   -ms-transform: translateY(0) translateX(-50%) !important;
   transform: translateY(0) translateX(-50%) !important;
-  right: 40% !important;
+  right: 39% !important;
 }
 
 .VueCarousel-navigation-button[data-v-453ad8cd] {
   top: auto !important;
-  bottom: -50%;
+  bottom: -60%;
 }
 
 .VueCarousel-wrapper {
@@ -492,17 +495,6 @@ li {
   margin-left: 0.5em;
   color: #c7712c;
   opacity: 1;
-}
-
-.section-title {
-  margin-bottom: 1em;
-}
-
-.section-title-h3 {
-  color: transparent;
-  font-size: 3em;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #c7712c;
 }
 
 .side-contact {
@@ -715,6 +707,16 @@ li {
   -o-animation-delay: 1.8s;
 }
 
+.title-circle {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background: linear-gradient(to right, #0c1f33 70%, #c7712c 30%);
+  background-size: 10%;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
 @keyframes top-bottom-frame {
   0% {
     width: 0;
@@ -793,3 +795,45 @@ li {
   }
 }
  */
+
+.test-section-bg {
+  background: linear-gradient(#0c1f33, #0c1f33d3), url("../../static/images/h1-blog.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.test-section-slider img {
+  height: 510px;
+  object-fit: cover;
+}
+
+.test-section-bottom-wrap {
+  border-right: 0;
+}
+
+.test-section-caption {
+  color: #fff;
+}
+
+.test-section-action-link a {
+  width: 100%;
+  height: 100%;
+  padding: 1.7em 0;
+  background: #fff;
+  color: #0c1f33;
+  border-top: 1px solid #c7712c;
+}
+
+.test-section-action-link .link-3 {
+  border-bottom: 0;
+}
+
+.test-section-action-link .link-1 {
+  border-top: 0;
+}
+
+.test-section-bottom-side-img img {
+  height: 420px;
+  object-fit: cover;
+}
+
