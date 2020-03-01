@@ -42,7 +42,7 @@
       </div>
     </section>
 
-    <section id="about-section-id" class="about-section">
+    <section id="about-section-id" class="about-section section">
       <div class="big-padding">
         <div class="row no-gutters">
           <div class="col-md-4 d-flex align-items-center">
@@ -104,7 +104,7 @@
       </div>
     </section>
 
-    <section class="services-section">
+    <section class="services-section section">
       <div class="top-bottom-padding">
         <div class="row no-gutters">
           <div class="col-md-5">
@@ -131,7 +131,7 @@
                 <carousel
                   :perPageCustom="[
                     [320, 1],
-                    [768, 2],
+                    [768, 1],
                     [1024, 2]
                   ]"
                   :navigationEnabled="true"
@@ -194,7 +194,7 @@
       </div>
     </section>
 
-    <section class="projects-section">
+    <section class="projects-section section">
       <div class="top-bottom-padding">
         <!-- <div class="title-circle"></div> -->
         <div class="row">
@@ -270,7 +270,7 @@
       </div>
     </section>
 
-    <section class="test-section">
+    <section class="test-section section">
       <div class="top-bottom-padding">
         <div class="test-section-bg">
           <div class="row no-gutters">
@@ -397,7 +397,7 @@
       </div>
     </section>
 
-    <section class="blog-section">
+    <section class="blog-section section">
       <div class="top-bottom-padding">
         <div class="row no-gutters">
           <div class="col-md-3" v-for="i in 4" :key="i">
@@ -450,7 +450,7 @@
       </div>
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section section">
       <div class="top-bottom-padding">
         <div class="row no-gutters">
           <div class="col-md-5">
@@ -548,6 +548,7 @@ export default {
     //     $(".about-removable-overlay").addClass("removable-overlay");
     //   }
     // });
+    
   },
   components: {
     Form

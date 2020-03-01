@@ -95,7 +95,7 @@
 
       <section class="blog-section">
         <div class="related-blog">
-          <div class="row">
+          <div class="row no-gutters">
             <div class="col-md-3" v-for="i in 4" :key="i">
               <article class="blog-box">
                 <nuxt-link to="/single-blog" class="no-line">
@@ -132,7 +132,7 @@
 
                         <div class="home-blog-action">
                           <div class="action-link relative">
-                            <span class="f-width-link link">
+                            <span class="link">
                               <span class="link-arrow">
                                 <font-awesome-icon
                                   icon="plus"
@@ -140,10 +140,6 @@
                               </span>
                               المزيد
                             </span>
-                            <div class="frame top-frame"></div>
-                            <div class="frame bottom-frame"></div>
-                            <div class="frame left-frame"></div>
-                            <div class="frame right-frame"></div>
                           </div>
                         </div>
                       </div>
