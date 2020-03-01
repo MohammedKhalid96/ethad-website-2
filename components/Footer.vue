@@ -113,7 +113,7 @@
 
 <style lang="scss" scoped>
 footer {
-  background: url("../static/images/footer-pattern.png");
+  background: linear-gradient(to top, #0c1f33, #0c1f3369, transparent),url("../static/images/footer-pattern.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

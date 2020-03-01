@@ -40,7 +40,7 @@
 
                       <div class="home-blog-action">
                         <div class="action-link relative">
-                          <span class="f-width-link link">
+                          <span class="link">
                             <span class="link-arrow">
                               <font-awesome-icon
                                 icon="plus"
@@ -48,10 +48,6 @@
                             </span>
                             المزيد
                           </span>
-                          <div class="frame top-frame"></div>
-                          <div class="frame bottom-frame"></div>
-                          <div class="frame left-frame"></div>
-                          <div class="frame right-frame"></div>
                         </div>
                       </div>
                     </div>
