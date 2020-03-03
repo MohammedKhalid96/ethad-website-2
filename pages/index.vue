@@ -64,6 +64,15 @@
                   المختلفة لتختر منها ما يناسبك
                 </p>
               </div>
+
+              <div class="action-link relative">
+                <nuxt-link to="/" class="link no-line">
+                  <span class="link-arrow">
+                    <font-awesome-icon icon="plus"></font-awesome-icon>
+                  </span>
+                  المزيد
+                </nuxt-link>
+              </div>
             </div>
           </div>
 
@@ -96,11 +105,24 @@
                   العامة ومساعدتك في أي مشكلة قد تواجهك
                 </p>
               </div>
+
+              <div class="action-link relative">
+                <nuxt-link to="/" class="link no-line">
+                  <span class="link-arrow">
+                    <font-awesome-icon icon="paper-plane"></font-awesome-icon>
+                  </span>
+                  تواصل معنا
+                </nuxt-link>
+              </div>
             </div>
           </div>
         </div>
 
-        <img src="../static/images/signature.png" alt class="signature" />
+        <img
+          src="../static/images/elithad-signature.png"
+          alt
+          class="signature"
+        />
       </div>
     </section>
 
@@ -399,12 +421,16 @@
 
     <section class="blog-section section">
       <div class="top-bottom-padding">
-        <div class="row no-gutters">
+        <div class="row">
           <div class="col-md-3" v-for="i in 4" :key="i">
             <article class="blog-box">
               <nuxt-link to="/single-blog" class="no-line">
                 <div class="blog-img relative">
-                  <img :src="`./images/${i}-blog.jpg`" alt class="image-100" />
+                  <img
+                    src="../static/images/2-blog.jpg"
+                    alt
+                    class="image-100"
+                  />
 
                   <div class="blog-caption-wrap small-padding absolute">
                     <div class="blog-caption-text-wrap small-padding absolute">
@@ -465,9 +491,6 @@
 
           <div class="col-md-7">
             <div class="contact-side mid-padding">
-              <div class="contact-section-form">
-                <Form />
-              </div>
               <div class="contact-info">
                 <li>
                   <a class="no-line other-lang" href="tel:+0201004750956">
@@ -496,6 +519,9 @@
                     >ابراج رويال, السادس من اكتوبر, الجيزة
                   </a>
                 </li>
+              </div>
+              <div class="contact-section-form">
+                <Form />
               </div>
             </div>
           </div>
@@ -548,7 +574,6 @@ export default {
     //     $(".about-removable-overlay").addClass("removable-overlay");
     //   }
     // });
-    
   },
   components: {
     Form

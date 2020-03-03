@@ -9,9 +9,26 @@
             </div>
 
             <div class="footer-about-caption">
-              <p
-                class="footer-about-caption-p"
-              >مشاريع سكنية وإدارية وتجارية ورياضية وترفيهية يقدمها لك الاتحاد بتصاميم إبداعية ومبتكرة غير مسبوقة</p>
+              <p class="footer-about-caption-p">
+                مشاريع سكنية وإدارية وتجارية ورياضية وترفيهية يقدمها لك الاتحاد
+                بتصاميم إبداعية ومبتكرة غير مسبوقة
+              </p>
+            </div>
+
+            <div class="action-link relative">
+              <nuxt-link to="/" class="link no-line">
+                <span class="link-arrow">
+                  <font-awesome-icon icon="plus"></font-awesome-icon>
+                </span>
+                المزيد
+              </nuxt-link>
+              
+              <nuxt-link to="/" class="link no-line">
+                <span class="link-arrow">
+                  <font-awesome-icon icon="paper-plane"></font-awesome-icon>
+                </span>
+                تواصل معنا
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -23,24 +40,24 @@
             </div>
 
             <li>
-              <nuxt-link
-                to="/"
-                class="no-line"
-              >يهتم الاتحاد بأنماط الحياة العصرية الراقية لذا صمم لك مجموعات عقارية بمختلف الديكورات</nuxt-link>
+              <nuxt-link to="/" class="no-line"
+                >يهتم الاتحاد بأنماط الحياة العصرية الراقية لذا صمم لك مجموعات
+                عقارية بمختلف الديكورات</nuxt-link
+              >
             </li>
 
             <li>
-              <nuxt-link
-                to="/"
-                class="no-line"
-              >يهتم الاتحاد بأنماط الحياة العصرية الراقية لذا صمم لك مجموعات عقارية بمختلف الديكورات</nuxt-link>
+              <nuxt-link to="/" class="no-line"
+                >يهتم الاتحاد بأنماط الحياة العصرية الراقية لذا صمم لك مجموعات
+                عقارية بمختلف الديكورات</nuxt-link
+              >
             </li>
 
             <li>
-              <nuxt-link
-                to="/"
-                class="no-line"
-              >يهتم الاتحاد بأنماط الحياة العصرية الراقية لذا صمم لك مجموعات عقارية بمختلف الديكورات</nuxt-link>
+              <nuxt-link to="/" class="no-line"
+                >يهتم الاتحاد بأنماط الحياة العصرية الراقية لذا صمم لك مجموعات
+                عقارية بمختلف الديكورات</nuxt-link
+              >
             </li>
           </div>
         </div>
@@ -52,26 +69,38 @@
             </div>
 
             <li>
-              <a href="tel:+0201004750956" target="_blank" class="other-lang no-line">
-                <font-awesome-icon icon="mobile-alt"></font-awesome-icon>01004750956
+              <a
+                href="tel:+0201004750956"
+                target="_blank"
+                class="other-lang no-line"
+              >
+                <font-awesome-icon icon="mobile-alt"></font-awesome-icon
+                >01004750956
               </a>
             </li>
 
             <li>
-              <a href="tel:+0201004750956" target="_blank" class="other-lang no-line">
-                <font-awesome-icon icon="mobile-alt"></font-awesome-icon>01004750956
+              <a
+                href="tel:+0201004750956"
+                target="_blank"
+                class="other-lang no-line"
+              >
+                <font-awesome-icon icon="mobile-alt"></font-awesome-icon
+                >01004750956
               </a>
             </li>
 
             <li>
               <a href="#" class="other-lang no-line">
-                <font-awesome-icon icon="envelope"></font-awesome-icon>info@ethad.com
+                <font-awesome-icon icon="envelope"></font-awesome-icon
+                >info@ethad.com
               </a>
             </li>
 
             <li>
               <a href="#" target="_blank" class="no-line">
-                <font-awesome-icon icon="map-marker-alt"></font-awesome-icon>ابراج رويال, السادس من اكتوبر, الجيزة
+                <font-awesome-icon icon="map-marker-alt"></font-awesome-icon
+                >ابراج رويال, السادس من اكتوبر, الجيزة
               </a>
             </li>
           </div>
@@ -113,7 +142,8 @@
 
 <style lang="scss" scoped>
 footer {
-  background: linear-gradient(to top, #0c1f33, #0c1f3369, transparent),url("../static/images/footer-pattern.png");
+  background: linear-gradient(to top, #0c1f33, #0c1f3369, transparent),
+    url("../static/images/footer-pattern.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -136,6 +166,12 @@ footer {
     width: 0.8em;
     margin-left: 0.5em;
     color: #c7712c;
+  }
+
+  .action-link {
+    a {
+      color: #0c1f33;
+    }
   }
 
   .footer-about {
