@@ -9,7 +9,7 @@
       </ol>
     </nav>
 
-    <section class="about-page about-section">
+    <section id="about-section-id" class="about-section section">
       <div class="big-padding">
         <div class="row no-gutters">
           <div class="col-md-4 d-flex align-items-center">
@@ -67,7 +67,20 @@
           </div>
         </div>
 
-        <img src="../static/images/signature.png" alt class="signature" />
+        <img
+          src="../static/images/elithad-signature.png"
+          alt
+          class="signature"
+        />
+
+        <div class="action-link text-center relative">
+          <nuxt-link to="/" class="link no-line">
+            <span class="link-arrow">
+              <font-awesome-icon icon="paper-plane"></font-awesome-icon>
+            </span>
+            تواصل معنا
+          </nuxt-link>
+        </div>
       </div>
     </section>
   </div>

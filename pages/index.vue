@@ -128,6 +128,11 @@
 
     <section class="services-section section">
       <div class="top-bottom-padding">
+        <!-- <div class="title-circle">
+          <h3 class="section-title-h3 white">
+            الخدمات
+          </h3>
+        </div> -->
         <div class="row no-gutters">
           <div class="col-md-5">
             <div class="services-big-img">
@@ -218,7 +223,11 @@
 
     <section class="projects-section section">
       <div class="top-bottom-padding">
-        <!-- <div class="title-circle"></div> -->
+        <!-- <div class="title-circle">
+          <h3 class="section-title-h3 white">
+            سابقة الأعمال
+          </h3>
+        </div> -->
         <div class="row">
           <div class="col-md-3">
             <div class="project-box small-project-box" v-for="i in 2" :key="i">
@@ -421,6 +430,11 @@
 
     <section class="blog-section section">
       <div class="top-bottom-padding">
+        <!-- <div class="title-circle">
+          <h3 class="section-title-h3 white">
+            الأخبار
+          </h3>
+        </div> -->
         <div class="row">
           <div class="col-md-3" v-for="i in 4" :key="i">
             <article class="blog-box">
@@ -478,6 +492,11 @@
 
     <section class="contact-section section">
       <div class="top-bottom-padding">
+        <!-- <div class="title-circle">
+          <h3 class="section-title-h3 white">
+            تواصل معنا
+          </h3>
+        </div> -->
         <div class="row no-gutters">
           <div class="col-md-5">
             <div class="contact-map-img">
