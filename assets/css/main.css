@@ -101,7 +101,7 @@ body {
 }
 
 .top-bottom-padding {
-  padding: 2.3em 0;
+  padding: 4em 0;
 }
 
 .mid-padding {
@@ -721,17 +721,21 @@ li {
 }
 
 .title-circle {
-  display: inline-block;
-  width: 100%;
-  height: 2em;
-  background: linear-gradient(to right, #0c1f33 70%, #c7722c 30%);
-  background-size: 8%;
+  display: block;
+  width: 30%;
+  height: 1em;
+  margin: auto;
+  /* background: linear-gradient(to right, #0c1f33 60%, #c7722c00 40%); */
+  background-size: 12%;
   text-align: center;
+  margin-bottom: 2em;
 }
 
 .section-title-h3 {
   position: relative;
-  bottom: 0.5em;
+  bottom: 0.7em;
+  font-size: 2.5em;
+  color: #c7712c;
 }
 
 @keyframes top-bottom-frame {

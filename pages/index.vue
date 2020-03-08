@@ -128,11 +128,11 @@
 
     <section class="services-section section">
       <div class="top-bottom-padding">
-        <!-- <div class="title-circle">
-          <h3 class="section-title-h3 white">
+        <div class="title-circle">
+          <h3 class="section-title-h3">
             الخدمات
           </h3>
-        </div> -->
+        </div>
         <div class="row no-gutters">
           <div class="col-md-5">
             <div class="services-big-img">
@@ -223,11 +223,11 @@
 
     <section class="projects-section section">
       <div class="top-bottom-padding">
-        <!-- <div class="title-circle">
-          <h3 class="section-title-h3 white">
+        <div class="title-circle">
+          <h3 class="section-title-h3">
             سابقة الأعمال
           </h3>
-        </div> -->
+        </div>
         <div class="row">
           <div class="col-md-3">
             <div class="project-box small-project-box" v-for="i in 2" :key="i">
@@ -303,6 +303,11 @@
 
     <section class="test-section section">
       <div class="top-bottom-padding">
+        <div class="title-circle">
+          <h3 class="section-title-h3">
+            العنوان
+          </h3>
+        </div>
         <div class="test-section-bg">
           <div class="row no-gutters">
             <div class="col-md-8">
@@ -430,11 +435,11 @@
 
     <section class="blog-section section">
       <div class="top-bottom-padding">
-        <!-- <div class="title-circle">
-          <h3 class="section-title-h3 white">
+        <div class="title-circle">
+          <h3 class="section-title-h3">
             الأخبار
           </h3>
-        </div> -->
+        </div>
         <div class="row">
           <div class="col-md-3" v-for="i in 4" :key="i">
             <article class="blog-box">
@@ -492,11 +497,11 @@
 
     <section class="contact-section section">
       <div class="top-bottom-padding">
-        <!-- <div class="title-circle">
-          <h3 class="section-title-h3 white">
+        <div class="title-circle">
+          <h3 class="section-title-h3">
             تواصل معنا
           </h3>
-        </div> -->
+        </div>
         <div class="row no-gutters">
           <div class="col-md-5">
             <div class="contact-map-img">
