@@ -221,7 +221,7 @@
       </div>
     </section>
 
-    <section class="projects-section section">
+    <!-- <section class="projects-section section">
       <div class="top-bottom-padding">
         <div class="title-circle">
           <h3 class="section-title-h3">
@@ -299,7 +299,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="test-section section">
       <div class="top-bottom-padding">
