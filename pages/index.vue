@@ -561,20 +561,23 @@ import Form from "~/components/Form.vue";
 export default {
   mounted: () => {
     $(window).scroll(function() {
-      var hT = $("#service-action-area").offset().top,
-        hH = $("#service-action-area").outerHeight(),
-        wH = $(window).height(),
-        wS = $(this).scrollTop();
-      if (wS > hT + hH - wH && hT > wS && wS + wH > hT + hH) {
-        $("#service-action-area .top-frame-id").addClass("top-frame");
-        $("#service-action-area .left-frame-id").addClass("left-frame");
-        $("#service-action-area .bottom-frame-id").addClass("bottom-frame");
-        $("#service-action-area .right-frame-id").addClass("right-frame");
+      let serviceArea = $("#service-action-area");
+      if (serviceArea.length) {
+        let hT = $("#service-action-area").offset().top,
+          hH = $("#service-action-area").outerHeight(),
+          wH = $(window).height(),
+          wS = $(this).scrollTop();
+        if (wS > hT + hH - wH && hT > wS && wS + wH > hT + hH) {
+          $("#service-action-area .top-frame-id").addClass("top-frame");
+          $("#service-action-area .left-frame-id").addClass("left-frame");
+          $("#service-action-area .bottom-frame-id").addClass("bottom-frame");
+          $("#service-action-area .right-frame-id").addClass("right-frame");
+        }
       }
     });
 
     $(window).scroll(function() {
-      var hT = $("#blog-action-area").offset().top,
+      let hT = $("#blog-action-area").offset().top,
         hH = $("#blog-action-area").outerHeight(),
         wH = $(window).height(),
         wS = $(this).scrollTop();
@@ -585,19 +588,6 @@ export default {
         $("#blog-action-area .right-frame-id").addClass("right-frame");
       }
     });
-
-    // $(window).scroll(function() {
-    //   var hT = $("#about-section-id").offset().top,
-    //     hH = $("#about-section-id").outerHeight(),
-    //     wH = $(window).height(),
-    //     wS = $(this).scrollTop();
-    //   if (wS > hT + hH - wH && hT > wS && wS + wH > hT + hH) {
-    //     $(".about-removable-overlay").addClass("removable-overlay");
-    //     $(".about-removable-overlay").addClass("removable-overlay");
-    //     $(".about-removable-overlay").addClass("removable-overlay");
-    //     $(".about-removable-overlay").addClass("removable-overlay");
-    //   }
-    // });
   },
   components: {
     Form

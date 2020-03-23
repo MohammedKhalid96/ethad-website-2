@@ -9,8 +9,13 @@
       </ol>
     </nav>
 
-    <section class="contact-page contact-section">
+    <section class="contact-section section">
       <div class="top-bottom-padding">
+        <div class="title-circle">
+          <h3 class="section-title-h3">
+            تواصل معنا
+          </h3>
+        </div>
         <div class="row no-gutters">
           <div class="col-md-5">
             <div class="contact-map-img">
@@ -24,9 +29,6 @@
 
           <div class="col-md-7">
             <div class="contact-side mid-padding">
-              <div class="contact-section-form">
-                <Form />
-              </div>
               <div class="contact-info">
                 <li>
                   <a class="no-line other-lang" href="tel:+0201004750956">
@@ -55,6 +57,9 @@
                     >ابراج رويال, السادس من اكتوبر, الجيزة
                   </a>
                 </li>
+              </div>
+              <div class="contact-section-form">
+                <Form />
               </div>
             </div>
           </div>

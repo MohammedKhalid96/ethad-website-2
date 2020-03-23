@@ -95,7 +95,7 @@
 
       <section class="blog-section">
         <div class="related-blog">
-          <div class="row no-gutters">
+          <div class="row">
             <div class="col-md-3" v-for="i in 4" :key="i">
               <article class="blog-box">
                 <nuxt-link to="/single-blog" class="no-line">
