@@ -154,12 +154,12 @@
                 ممكنة
               </p>
 
-              <div class="services-slider">
+              <div class="services-slider text-center">
                 <carousel
                   :perPageCustom="[
                     [320, 1],
                     [768, 1],
-                    [1024, 2]
+                    [1024, 4]
                   ]"
                   :navigationEnabled="true"
                   :paginationEnabled="false"
@@ -171,43 +171,183 @@
                   :autoplayTimeout="4000"
                   dir="rtl"
                 >
-                  <slide v-for="i in 6" :key="i">
+                  <slide>
                     <div class="service-box">
                       <nuxt-link to="/" class="no-line">
-                        <div class="row no-gutters">
-                          <div class="col-6">
-                            <div class="service-img">
-                              <img
-                                src="../static/images/service-1.png"
-                                alt
-                                class="image-100"
-                              />
-                            </div>
-                          </div>
+                        <div class="service-img">
+                          <img
+                            src="../static/images/new/الأستثمار-والتطوير-العقاري.png"
+                            alt
+                          />
+                        </div>
 
-                          <div class="col-6 d-flex align-items-center">
-                            <div class="service-caption small-padding">
-                              <h5 class="service-name white">
-                                أنظمة دفع مختلفة
-                              </h5>
-                              <div
-                                id="service-action-area"
-                                class="action-link relative"
-                              >
-                                <span class="f-width-link link">
-                                  <span class="link-arrow">
-                                    <font-awesome-icon
-                                      icon="plus"
-                                    ></font-awesome-icon>
-                                  </span>
-                                  المزيد
-                                </span>
-                                <div class="frame top-frame-id"></div>
-                                <div class="frame bottom-frame-id"></div>
-                                <div class="frame left-frame-id"></div>
-                                <div class="frame right-frame-id"></div>
-                              </div>
-                            </div>
+                        <div class="service-caption">
+                          <h5 class="service-name white">
+                            الأستثمار والتطوير العقاري
+                          </h5>
+                          <div
+                            id="service-action-area"
+                            class="action-link relative"
+                          >
+                            <span class="f-width-link link">
+                              <span class="link-arrow">
+                                <font-awesome-icon
+                                  icon="plus"
+                                ></font-awesome-icon>
+                              </span>
+                              المزيد
+                            </span>
+                            <div class="frame top-frame-id"></div>
+                            <div class="frame bottom-frame-id"></div>
+                            <div class="frame left-frame-id"></div>
+                            <div class="frame right-frame-id"></div>
+                          </div>
+                        </div>
+                      </nuxt-link>
+                    </div>
+                  </slide>
+
+                  <slide>
+                    <div class="service-box">
+                      <nuxt-link to="/" class="no-line">
+                        <div class="service-img">
+                          <img
+                            src="../static/images/new/التشييد-والبناء.png"
+                            alt
+                          />
+                        </div>
+
+                        <div class="service-caption">
+                          <h5 class="service-name white">
+                            التشييد والبناء
+                          </h5>
+                          <div
+                            id="service-action-area"
+                            class="action-link relative"
+                          >
+                            <span class="f-width-link link">
+                              <span class="link-arrow">
+                                <font-awesome-icon
+                                  icon="plus"
+                                ></font-awesome-icon>
+                              </span>
+                              المزيد
+                            </span>
+                            <div class="frame top-frame-id"></div>
+                            <div class="frame bottom-frame-id"></div>
+                            <div class="frame left-frame-id"></div>
+                            <div class="frame right-frame-id"></div>
+                          </div>
+                        </div>
+                      </nuxt-link>
+                    </div>
+                  </slide>
+
+                  <slide>
+                    <div class="service-box">
+                      <nuxt-link to="/" class="no-line">
+                        <div class="service-img">
+                          <img
+                            src="../static/images/new/مجموعات-عقارية-بمختلف-الديكورات.png"
+                            alt
+                            class="image-100"
+                          />
+                        </div>
+
+                        <div class="service-caption">
+                          <h5 class="service-name white">
+                            مجموعات عقارية بمختلف الديكورات
+                          </h5>
+                          <div
+                            id="service-action-area"
+                            class="action-link relative"
+                          >
+                            <span class="f-width-link link">
+                              <span class="link-arrow">
+                                <font-awesome-icon
+                                  icon="plus"
+                                ></font-awesome-icon>
+                              </span>
+                              المزيد
+                            </span>
+                            <div class="frame top-frame-id"></div>
+                            <div class="frame bottom-frame-id"></div>
+                            <div class="frame left-frame-id"></div>
+                            <div class="frame right-frame-id"></div>
+                          </div>
+                        </div>
+                      </nuxt-link>
+                    </div>
+                  </slide>
+
+                  <slide>
+                    <div class="service-box">
+                      <nuxt-link to="/" class="no-line">
+                        <div class="service-img">
+                          <img
+                            src="../static/images/new/انظمة-دفع-مختلفة-.png"
+                            alt
+                            class="image-100"
+                          />
+                        </div>
+
+                        <div class="service-caption">
+                          <h5 class="service-name white">
+                            أنظمة دفع مختلفة
+                          </h5>
+                          <div
+                            id="service-action-area"
+                            class="action-link relative"
+                          >
+                            <span class="f-width-link link">
+                              <span class="link-arrow">
+                                <font-awesome-icon
+                                  icon="plus"
+                                ></font-awesome-icon>
+                              </span>
+                              المزيد
+                            </span>
+                            <div class="frame top-frame-id"></div>
+                            <div class="frame bottom-frame-id"></div>
+                            <div class="frame left-frame-id"></div>
+                            <div class="frame right-frame-id"></div>
+                          </div>
+                        </div>
+                      </nuxt-link>
+                    </div>
+                  </slide>
+
+                  <slide>
+                    <div class="service-box">
+                      <nuxt-link to="/" class="no-line">
+                        <div class="service-img">
+                          <img
+                            src="../static/images/new/خدمات-ما-بعد-البيع.png"
+                            alt
+                            class="image-100"
+                          />
+                        </div>
+
+                        <div class="service-caption">
+                          <h5 class="service-name white">
+                            خدمات ما بعد البيع
+                          </h5>
+                          <div
+                            id="service-action-area"
+                            class="action-link relative"
+                          >
+                            <span class="f-width-link link">
+                              <span class="link-arrow">
+                                <font-awesome-icon
+                                  icon="plus"
+                                ></font-awesome-icon>
+                              </span>
+                              المزيد
+                            </span>
+                            <div class="frame top-frame-id"></div>
+                            <div class="frame bottom-frame-id"></div>
+                            <div class="frame left-frame-id"></div>
+                            <div class="frame right-frame-id"></div>
                           </div>
                         </div>
                       </nuxt-link>

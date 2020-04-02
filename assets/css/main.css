@@ -391,14 +391,21 @@ body {
   font-size: 0.9em;
 }
 
+.services-caption.mid-padding {
+  padding-top: 1em;
+}
+
 .service-name {
   font-size: 1em;
   margin-bottom: 1em;
 }
 
+.service-img {
+  margin-bottom: 1.5em;
+}
+
 .service-img img {
-  height: 120px;
-  object-fit: cover;
+  width: 120px;
 }
 
 .services-section .VueCarousel-navigation-button[data-v-453ad8cd] {
