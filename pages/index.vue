@@ -146,7 +146,7 @@
                 معايير عالمي في مجال المقاولات الصناعية
               </p>
               <h3 class="services-title-h3 orange">الحل الأفضل للجميع</h3>
-              <p class="services-caption white">
+              <p class="services-caption-p white">
                 مشاريع سكنية وإدارية وتجارية ورياضية وترفيهية يقدمها لك الاتحاد
                 بتصاميم إبداعية ومبتكرة غير مسبوقة تجربة مختلفة واستثنائية في
                 الاتحاد للاستثمار والتطوير العقاري مع أحدث الأساليب المتبعة في
@@ -331,6 +331,80 @@
                         <div class="service-caption">
                           <h5 class="service-name white">
                             خدمات ما بعد البيع
+                          </h5>
+                          <div
+                            id="service-action-area"
+                            class="action-link relative"
+                          >
+                            <span class="f-width-link link">
+                              <span class="link-arrow">
+                                <font-awesome-icon
+                                  icon="plus"
+                                ></font-awesome-icon>
+                              </span>
+                              المزيد
+                            </span>
+                            <div class="frame top-frame-id"></div>
+                            <div class="frame bottom-frame-id"></div>
+                            <div class="frame left-frame-id"></div>
+                            <div class="frame right-frame-id"></div>
+                          </div>
+                        </div>
+                      </nuxt-link>
+                    </div>
+                  </slide>
+
+                  <slide>
+                    <div class="service-box">
+                      <nuxt-link to="/" class="no-line">
+                        <div class="service-img">
+                          <img
+                            src="../static/images/new/مساحات-مختلفة-من-الوحدات-السكنية.png"
+                            alt
+                            class="image-100"
+                          />
+                        </div>
+
+                        <div class="service-caption">
+                          <h5 class="service-name white">
+                            وحدات سكنية بمساحات مختلفة
+                          </h5>
+                          <div
+                            id="service-action-area"
+                            class="action-link relative"
+                          >
+                            <span class="f-width-link link">
+                              <span class="link-arrow">
+                                <font-awesome-icon
+                                  icon="plus"
+                                ></font-awesome-icon>
+                              </span>
+                              المزيد
+                            </span>
+                            <div class="frame top-frame-id"></div>
+                            <div class="frame bottom-frame-id"></div>
+                            <div class="frame left-frame-id"></div>
+                            <div class="frame right-frame-id"></div>
+                          </div>
+                        </div>
+                      </nuxt-link>
+                    </div>
+                  </slide>
+
+                  <slide>
+                    <div class="service-box">
+                      <nuxt-link to="/" class="no-line">
+                        <div class="service-img">
+                          <img
+                            src="../static/images/new/مساحات-مختلفة-من-الوحدات-السكنية.png"
+                            alt
+                            class="image-100"
+                          />
+                        </div>
+
+                        <div class="service-caption">
+                          <h5 class="service-name white">
+                            وحدات سكنية بمساحات مختلفة
                           </h5>
                           <div
                             id="service-action-area"

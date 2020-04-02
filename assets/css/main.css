@@ -210,6 +210,10 @@ body {
   color: #c7712c;
 }
 
+.contact-side.mid-padding {
+  padding-top: 2em;
+}
+
 .contact-info a {
   color: #fff;
 }
@@ -255,18 +259,21 @@ body {
 }
 
 .form-control {
-  background: #0c1f33ad;
+  background: transparent;
   color: #fff;
-  border-radius: 1.5em;
   padding: 1.575rem 0.75rem;
   border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #c7712c;
   -webkit-box-shadow: none;
   box-shadow: none;
+  margin-bottom: 2em;
 }
 
 .form-control:focus {
-  background: #0c1f33ad;
+  background: transparent;
   border: 0;
+  border-bottom: 1px dashed #c7712c;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -395,6 +402,10 @@ body {
   padding-top: 1em;
 }
 
+.services-caption-p {
+  margin-bottom: 1.5em;
+}
+
 .service-name {
   font-size: 1em;
   margin-bottom: 1em;
@@ -439,7 +450,7 @@ body {
 
 .VueCarousel-navigation-button[data-v-453ad8cd] {
   top: auto !important;
-  bottom: -60%;
+  bottom: -50%;
 }
 
 .VueCarousel-wrapper {
